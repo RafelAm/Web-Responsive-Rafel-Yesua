@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin:0;
 }
 
 .dropdown {
@@ -96,5 +96,38 @@ button img{
     background-color: red;
     margin-top: -0.3em;
     height: 3em;
+}
+
+@media screen and (max-width: 740px) {
+  *{
+      margin: 0;
+  }
+  nav{
+      height: 0em;
+  }
+  .dropdown{
+      display: none;
+  }
+  .navmovil{
+      display: block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  .navmovil li a{
+      display: block;
+      color: red;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .navmovil li a.impar {
+      background-color: red;
+      color: white;
+  }
+  .navmovil li a#active{
+      background-color: rgb(80, 3, 3);
+  }
 }
 
