@@ -55,7 +55,7 @@
 }
 nav{
     background-color: red;
-    height: 4em;
+    
 }
 button img{
     background-color: transparent;
@@ -90,8 +90,6 @@ button img{
     z-index: 0;
 }
 
-
-
 #separador1{
     background-color: red;
     margin-top: -0.3em;
@@ -102,37 +100,48 @@ button img{
 }
 
 @media screen and (max-width: 740px) {
+    nav {
+        height: auto;
+        background-color: none;
+    }
 
-    *{
-        margin: 0;
-    }
-    nav{
-        height: 0em;
-    }
-    .dropdown{
+    .dropdown {
         display: none;
+        position: absolute;
     }
-    .navmovil{
+
+    .navmovil {
         display: block;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
-    .navmovil li a{
+
+    .navmovil li a {
         display: block;
         color: red;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
     }
+
     .navmovil li a.impar {
         background-color: red;
         color: white;
     }
-    .navmovil li a#active{
-        background-color: rgb(80, 3, 3);
+    .navmovil li a.par {
+        background-color: white;
+        color: red;
     }
- 
+    .navmovil li a#active {
+        background-color: rgb(80, 3, 3);
+        padding: 0.75em;
+        font-size: 18px;
+    }
+   img{
+    width: 100%;
+   }
+   
 }
 
