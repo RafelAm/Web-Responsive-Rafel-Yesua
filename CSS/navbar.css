@@ -1,3 +1,4 @@
+
 *{
     margin:0;
 }
@@ -99,38 +100,79 @@ button img{
     display: none;
 }
 
-@media screen and (max-width: 740px) {
 
+@media screen and (max-width: 740px) {
     *{
-        margin: 0;
+        margin:0;
     }
-    nav{
-        height: 0em;
+    nav {
+        height: auto;
+        background-color: none;
     }
-    .dropdown{
+
+    .dropdown {
         display: none;
+        position: absolute;
     }
-    .navmovil{
+    .logo img{
+        width: 6em;
+
+    }
+    .navmovil {
         display: block;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
-    .navmovil li a{
+
+    .navmovil li a {
         display: block;
         color: red;
         text-align: center;
-        padding: 14px 16px;
+        padding: 1em 5em;
         text-decoration: none;
     }
+
     .navmovil li a.impar {
         background-color: red;
         color: white;
     }
-    .navmovil li a#active{
-        background-color: rgb(80, 3, 3);
+    .navmovil li a.par {
+        background-color: white;
+        color: red;
     }
- 
-}
+    .navmovil li a#active {
+        background-color: rgb(80, 3, 3);
+        padding: 0.75em;
+        font-size: 18px;
+    }
 
+    div.art1{
+        background-image: url("../Multimedia/Banner2.jpg");
+    }
+
+    .flex{
+        display: flex;
+    }
+    #lg1{
+       margin-top: 2em;
+       width: 12em;
+       height: 10em;
+    }
+
+    #lg2{
+        margin-top: 5em;
+        margin-left: 0em;
+        width: 12em;
+        margin-bottom: 5em;
+    }
+
+    #sp1{
+        text-align: left;
+        margin-top: 0em;
+        margin-left: 0em;
+        background-color: rgb(26, 192, 26);
+        border: 0.15em solid black;
+    }
+}
