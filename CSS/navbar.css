@@ -32,7 +32,7 @@
     padding: 12px 16px;
     text-decoration: none;
     font-weight: bold;
-   display: block;
+    display: block;
     background-color: red;
     font-size: 1.2em;
     width: 20em;
@@ -63,8 +63,6 @@ button img{
     height: 1.8em;
 }
 #lg2{
-
-    position: absolute;
     width: 10em;
     margin-top: 10.7em;
     margin-left: 62em;
@@ -72,14 +70,12 @@ button img{
 }
 
 #lg1{
-    position: absolute;
     width: 40em;
     margin-top: 10em;
     margin-left: 9em;
 }
 
 #sp1{
-    position: absolute;
     font-size: 1.5em;
     text-align: left;
     margin-top: 8em;
@@ -128,51 +124,43 @@ button img{
 
     .navmovil li a {
         display: block;
-        color: red;
+        color: white;
         text-align: center;
         padding: 1em 5em;
         text-decoration: none;
     }
-
-    .navmovil li a.impar {
-        background-color: red;
-        color: white;
-    }
-    .navmovil li a.par {
-        background-color: white;
-        color: red;
-    }
     .navmovil li a#active {
-        background-color: rgb(80, 3, 3);
+        background-color: rgb(165, 161, 161);
         padding: 0.75em;
         font-size: 18px;
-    }
-
-    div.art1{
-        background-image: url("../Multimedia/Banner2.jpg");
     }
 
     .flex{
         display: flex;
     }
+
     #lg1{
-       margin-top: 2em;
-       width: 12em;
-       height: 10em;
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 25%;
     }
 
     #lg2{
-        margin-top: 5em;
-        margin-left: 0em;
-        width: 12em;
-        margin-bottom: 5em;
+        display: none;
     }
 
     #sp1{
         text-align: left;
         margin-top: 0em;
-        margin-left: 0em;
+        margin-left: 5%;
         background-color: rgb(26, 192, 26);
         border: 0.15em solid black;
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .art1{
+        background-image: url(/Multimedia/Banner2.jpg);
+        
     }
 }
