@@ -62,7 +62,7 @@ button img{
     height: 1.8em;
 }
 #lg2{
-
+    display: flexbox;
     position: absolute;
     width: 10em;
     margin-top: 10.7em;
@@ -71,6 +71,7 @@ button img{
 }
 
 #lg1{
+    display: flexbox;
     position: absolute;
     width: 40em;
     margin-top: 10em;
@@ -78,6 +79,7 @@ button img{
 }
 
 #sp1{
+    display: flexbox;
     position: absolute;
     font-size: 1.5em;
     text-align: left;
@@ -129,5 +131,8 @@ button img{
   .navmovil li a#active{
       background-color: rgb(80, 3, 3);
   }
+#banner1 {
+    margin-top: 8em; 
+}
 }
 
