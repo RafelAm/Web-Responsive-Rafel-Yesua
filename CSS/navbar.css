@@ -153,7 +153,11 @@ button img{
         text-align: left;
         margin-top: 0em;
         margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
         background-color: rgb(26, 192, 26);
+        opacity: 85%;
+        
         border: 0.15em solid black;
         width: 80%;
         font-size: 100%;
@@ -161,6 +165,8 @@ button img{
 
     .art1{
         background-image: url(/Multimedia/Banner2.jpg);
-        
+        background-position: center;
+        padding-bottom: 5%;
+        background-size: cover;
     }
 }
