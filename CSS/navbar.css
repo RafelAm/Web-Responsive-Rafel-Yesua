@@ -93,11 +93,36 @@ button img{
 }
 
 
-
 #separador1{
     background-color: red;
     margin-top: -0.3em;
     height: 3em;
+}
+
+footer{
+    position: absolute;
+    display: flexbox;
+    background-color: red;
+    color: white;
+    bottom: 0;
+    text-align: left;
+    width: 96.66%;
+    padding: 2em;
+
+}
+
+#socialp{
+    margin-bottom: -1.5%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.SocialMedia{
+    position: relative;
+    left: 5%;
+    top: 20%;
+    width: 2%;
+    height: 23%;
 }
 
 @media screen and (max-width: 740px) {
