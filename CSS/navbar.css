@@ -96,7 +96,6 @@ button img{
     display: none;
 }
 
-
 @media screen and (max-width: 740px) {
     *{
         margin:0;
@@ -168,5 +167,6 @@ button img{
         background-position: center;
         padding-bottom: 5%;
         background-size: cover;
+        padding-bottom: 10%;
     }
 }
