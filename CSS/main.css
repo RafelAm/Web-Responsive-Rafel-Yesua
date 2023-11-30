@@ -1,0 +1,74 @@
+button img{
+    background-color: transparent;
+    height: 1.8em;
+}
+#lg2{
+    width: 10em;
+    margin-top: 10.7em;
+    margin-left: 62em;
+    z-index: 2;
+}
+
+#lg1{
+    width: 40em;
+    margin-top: 10em;
+    margin-left: 9em;
+}
+
+#sp1{
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 8em;
+    margin-left: 27em;
+    background-color: rgb(26, 192, 26);
+    width: 35em;
+    padding: 1em;
+    border: 0.15em solid black;
+    z-index: 0;
+}
+
+#separador1{
+    background-color: red;
+    margin-top: -0.3em;
+    height: 3em;
+}
+
+
+@media screen and (max-width: 740px) {
+
+    .flex{
+        display: flex;
+    }
+
+    #lg1{
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 25%;
+    }
+
+    #lg2{
+        display: none;
+    }
+
+    #sp1{
+        text-align: left;
+        margin-top: 0em;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+        background-color: rgb(26, 192, 26);
+        opacity: 85%;
+        
+        border: 0.15em solid black;
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .art1{
+        background-image: url(/Multimedia/Banner2.jpg);
+        background-position: center;
+        padding-bottom: 5%;
+        background-size: cover;
+        padding-bottom: 10%;
+    }
+}
