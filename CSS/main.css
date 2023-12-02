@@ -51,7 +51,7 @@ button img{
 
     #sp1{
         text-align: left;
-        margin-top: -90%;
+        margin-top: -95%;
         margin-left: 5%;
         margin-right: 5%;
         padding: 5%;
@@ -69,6 +69,6 @@ button img{
         background-position: center;
         padding-bottom: 5%;
         background-size: cover;
-        padding-bottom: 10%;
+        padding-bottom: 20%;
     }
 }
