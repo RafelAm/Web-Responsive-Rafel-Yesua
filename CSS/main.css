@@ -44,6 +44,7 @@ button img{
         width: 50%;
         margin-top: 2%;
         margin-left: 25%;
+        
     }
 
     #lg2{
@@ -58,7 +59,6 @@ button img{
         padding: 5%;
         background-color: rgb(26, 192, 26);
         opacity: 85%;
-        
         border: 0.15em solid black;
         width: 80%;
         font-size: 100%;
