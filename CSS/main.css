@@ -10,9 +10,7 @@ button img{
 }
 
 #lg1{
-    width: 40em;
-    margin-top: 10em;
-    margin-left: 9em;
+  
 }
 
 #sp1{
@@ -34,26 +32,26 @@ button img{
 }
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 425px) {
 
-    .flex{
-        display: flex;
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+
     }
 
     #lg1{
-        width: 50%;
-        margin-top: 2%;
-        margin-left: 25%;
-        
+        width: 30%;
+        margin-top: 3%;
+        margin-left: 0%;
+        padding-bottom: 15%;
     }
 
-    #lg2{
-        display: none;
-    }
 
     #sp1{
         text-align: left;
-        margin-top: 0em;
+        margin-top: -80%;
         margin-left: 5%;
         margin-right: 5%;
         padding: 5%;
@@ -62,10 +60,12 @@ button img{
         border: 0.15em solid black;
         width: 80%;
         font-size: 100%;
+        z-index: 1;
+        
     }
 
     .art1{
-        background-image: url(/Multimedia/Banner2.jpg);
+        background-image: url(../Multimedia/Banner2.jpg);
         background-position: center;
         padding-bottom: 5%;
         background-size: cover;
