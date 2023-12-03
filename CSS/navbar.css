@@ -62,7 +62,9 @@ button img{
     background-color: transparent;
     height: 1.6vw;
 }
-
+#lg3{
+    display: none;
+}
 #lg2{
     display: flex;
     position: absolute;
@@ -179,13 +181,34 @@ button img{
 
 #banner1{
     width: 100%;
-=======
+}
+
 
 .navmovil{
     display: none;
 
 }
 
+footer{
+    position: absolute;
+    display: flexbox;
+    background-color: red;
+    color: white;
+    font-size: 0.7vw;
+    text-align: left;
+    width: 95.99%;
+    padding: 2vw;
+
+}
+.social{
+    width: 2vw;
+    height: 2vw;
+}
+#separador1{
+    background-color: red;
+    margin-top: -0.7vw;
+    height: 3vw;
+}
 @media screen and (max-width: 740px) {
     *{
         margin:0;
@@ -201,33 +224,6 @@ button img{
     }
     .logo img{
         width: 6em;
-
-
-#separador1{
-    background-color: red;
-    margin-top: -0.7vw;
-    height: 3vw;
-}
-
-footer{
-    position: absolute;
-    display: flexbox;
-    background-color: red;
-    color: white;
-    font-size: 0.7vw;
-    text-align: left;
-    width: 95.99%;
-    padding: 2vw;
-
-}
-
-.social{
-    width: 2vw;
-    height: 2vw;
-}
-
-
-
     }
     .navmovil {
         display: block;
