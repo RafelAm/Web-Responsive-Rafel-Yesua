@@ -62,7 +62,12 @@ button img{
     background-color: transparent;
     height: 1.6vw;
 }
-
+#lg3{
+    display: none ;
+}
+#sp3{
+    display: none;
+}
 #lg2{
     display: flex;
     position: absolute;
@@ -179,30 +184,12 @@ button img{
 
 #banner1{
     width: 100%;
-=======
+}
 
 .navmovil{
     display: none;
 
 }
-
-@media screen and (max-width: 740px) {
-    *{
-        margin:0;
-    }
-    nav {
-        height: auto;
-        background-color: none;
-    }
-
-    .dropdown {
-        display: none;
-        position: absolute;
-    }
-    .logo img{
-        width: 6em;
-
-
 #separador1{
     background-color: red;
     margin-top: -0.7vw;
@@ -226,8 +213,21 @@ footer{
     height: 2vw;
 }
 
+@media screen and (max-width: 740px) {
+    *{
+        margin:0;
+    }
+    nav {
+        height: auto;
+        background-color: none;
+    }
 
-
+    .dropdown {
+        display: none;
+        position: absolute;
+    }
+    .logo img{
+        width: 6em;
     }
     .navmovil {
         display: block;
