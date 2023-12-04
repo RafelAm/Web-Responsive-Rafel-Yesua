@@ -1,8 +1,9 @@
 
+/*Parametros de la web*/
 *{
     margin:0;
 }
-
+/*Parámetros del menú de navbar*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -53,6 +54,7 @@
     color: white;
     background-color: red;
 }
+/*Parámetros del fondo y tamaño navbar*/
 nav{
     background-color: red;
     height: 3.3vw;
@@ -62,8 +64,16 @@ button img{
     background-color: transparent;
     height: 1.6vw;
 }
-#lg3,#sp3{
-    display: none;
+
+
+
+/*Imagen y texto del primer article */
+#lg1{
+    display: flex;
+    position: absolute;
+    width: 7.95vw;
+    margin-top: 8.63vw;
+    margin-left: 20.4vw;
 }
 #lg2{
     display: flex;
@@ -71,14 +81,6 @@ button img{
     width: 8vw;
     margin-top: 6vw;
     margin-left: 75.92vw;
-}
-
-#lg1{
-    display: flex;
-    position: absolute;
-    width: 7.95vw;
-    margin-top: 8.63vw;
-    margin-left: 20.4vw;
 }
 
 #sp1{
@@ -96,6 +98,38 @@ button img{
     border: black solid 1.14vw;
     line-height: 1.81vw;
 }
+/*Imagen y texto del segundo article*/
+#disc{
+    
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    left: 69vw;
+    top: 44vw;
+}
+#sp2{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+
+/*Imagen y texto del tercer article*/
+#lg3,#sp3{
+    display: none;
+}
+
+/*Botom saber más*/
 #more1{
     display: block;
     position: absolute;
@@ -123,22 +157,8 @@ button img{
     text-decoration: none;
 }
 
-#sp2{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
-    line-height: 1.81vw;
-}
 
+/*Segundo boton saber más*/
 #more2{
     display: block;
     position: absolute;
@@ -165,16 +185,7 @@ button img{
     background-color: white;
     text-decoration: none;
 }
-
-#disc{
-    
-    position: absolute;
-    width: 12vw;
-    height: 12vw;
-    left: 69vw;
-    top: 44vw;
-}
-
+/*Banner de fondo 1*/
 .banner1{
     position: relative;
 }
@@ -188,7 +199,15 @@ button img{
     display: none;
 
 }
+/*Separadro de contenido*/
+#separador1{
+    background-color: red;
+    margin-top: -0.7vw;
+    height: 3vw;
+}
 
+
+/*Pie de página*/
 footer{
     position: absolute;
     display: flexbox;
@@ -200,15 +219,13 @@ footer{
     padding: 2vw;
 
 }
+/*Iconos de las redes sociales*/
 .social{
     width: 2vw;
     height: 2vw;
 }
-#separador1{
-    background-color: red;
-    margin-top: -0.7vw;
-    height: 3vw;
-}
+
+/*CSS Tamaño móvil*/
 @media screen and (max-width: 740px) {
     *{
         margin:0;
@@ -248,5 +265,39 @@ footer{
     #lg3,#sp3{
         display: flex;
     }
+
+
+
+    /*Imagen y texto del primer article */
+#lg1{
+    display: flex;
+    position: absolute;
+    width: 11.3vw;
+    margin-top: 6vw;
+    margin-left: 8vw;
+}
+#lg2{
+    display: flex;
+    position: absolute;
+    width: 11.3vw;
+    margin-top: 3vw;
+    margin-left: 82.6vw;
+}
+
+#sp1{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 2.7vw;
+    text-align: left;
+    margin-top: 6vw;
+    margin-left: 19vw;
+    width: 60vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: black solid 1.14vw;
+    line-height: 1.84vw;
+}
 }
 
