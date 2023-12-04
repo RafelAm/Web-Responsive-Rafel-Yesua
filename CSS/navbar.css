@@ -185,6 +185,122 @@ button img{
     background-color: white;
     text-decoration: none;
 }
+
+
+#sword{
+    display: flex;
+    position: absolute;
+    width: 21vw;
+    margin-top: -27vw;
+    margin-left: 35vw;
+    rotate: -90deg;
+}
+
+#sp3{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+/*Tercer boton saber más*/
+#more3{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 108vw;
+}
+
+#more3 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more3 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+#gorra{
+    display: flex;
+    position: absolute;
+    width: 19vw;
+    margin-top: -3.5vw;
+    margin-left: 41vw;
+
+}
+#nariz{
+    position: absolute;
+    width: 19vw;
+    margin-top: 19vw;
+    margin-left: 41vw;
+}
+
+
+#sp4{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+/*Cuarto boton saber más*/
+#more4{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 150vw;
+}
+
+#more4 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more4 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
 /*Banner de fondo 1*/
 .banner1{
     position: relative;
