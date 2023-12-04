@@ -214,11 +214,8 @@ footer{
     width: 2vw;
     height: 2vw;
 }
-
-#separador1{
-    background-color: red;
-    margin-top: -0.7vw;
-    height: 3vw;
+#bannermovil1{
+    display:none;
 }
 
 @media screen and (max-width: 740px) {
