@@ -92,7 +92,6 @@ button img{
         overflow: hidden;
         
     }
-
     .navmovil li a {
         display: block;
         color: white;
@@ -103,7 +102,10 @@ button img{
     .navmovil li a#active {
         background-color: rgb(165, 161, 161);
         padding: 2vw;
-        font-size: 18px;
+        font-size: 4vw;
+    }
+    hr{
+        color: black;
     }
 }
 

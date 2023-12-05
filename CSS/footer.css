@@ -4,11 +4,10 @@ footer{
     display: flexbox;
     background-color: red;
     color: white;
-    font-size: 0.7vw;
+    font-size: 1vw;
     text-align: left;
     width: 95.99%;
     padding: 2vw;
-
 }
 /*Iconos de las redes sociales*/
 .social{
@@ -16,5 +15,11 @@ footer{
     height: 2vw;
 }
 @media screen and (max-width: 426px){
-    
+    footer{
+        font-size: 3vw;
+    }
+    .social{
+        width: 4vw;
+        height: 4vw;
+    }
 }

@@ -22,7 +22,6 @@
 }
 /*Imagen y texto del segundo article*/
 #disc{
-    
     position: absolute;
     width: 12vw;
     height: 12vw;
@@ -262,16 +261,37 @@
     /*Segundo boton saber más en movil*/
     #more2{
         left: 45vw;
-        top: 120vw;
+        top: 107vw;
+    }
+    /*texto del tercer article */
+    #sp3{
+        width: 60%;
+        margin-top: 10.5vw;
+        background-color: hsla(0, 0%, 0%, 0.57);
+        border-color: black;
     }
     /*Tercer boton saber más en movil*/
     #more3{
         left: 45vw;
-        top: 157vw;
+        top: 145vw;
+    }
+    /*Imagen y texto del cuarto article */
+    #sp4{
+        margin-top: 10.5vw;
+        background-color: hsla(0, 0%, 0%, 0.57);
+        border-color: black;
+        
+    }
+    #disc{
+        top:159.5vw
     }
     /*Cuarto boton saber más en movil*/
     #more4{
         left: 45vw;
-        top: 198vw;
+        top: 185vw;
     }
+    #separador1{
+        margin-top: -1vw;
+    }
+
 }
