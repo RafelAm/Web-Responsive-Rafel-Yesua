@@ -71,16 +71,9 @@ button img{
 #lg1{
     display: flex;
     position: absolute;
-    width: 7.95vw;
-    margin-top: 8.63vw;
-    margin-left: 20.4vw;
-}
-#lg2{
-    display: flex;
-    position: absolute;
-    width: 8vw;
-    margin-top: 6vw;
-    margin-left: 75.92vw;
+    width: 70vw;
+    margin-top: 2vw;
+    margin-left: 15.5vw;
 }
 
 #sp1{
@@ -89,14 +82,13 @@ button img{
     color: white;
     font-size: 1.25vw;
     text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
+    margin-top: 4.3vw;
+    margin-left: 28vw;
     width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: black solid 1.14vw;
-    line-height: 1.81vw;
+    padding: 0.6vw;
+    padding-bottom: 12vw;
+    background-color: hsla(0, 0%, 0%, 0.57);
+    line-height: 1.8vw;
 }
 /*Imagen y texto del segundo article*/
 #disc{
