@@ -46,11 +46,6 @@
 }
 
 
-/*Imagen y texto del tercer article*/
-#lg3,#sp3{
-    display: none;
-}
-
 /*Botom saber más*/
 #more1{
     display: block;
@@ -241,46 +236,28 @@
     height: 3vw;
 }
 @media screen and (max-width: 426px){
-    #lg3,#sp3{
-        display: flex;
-    }
-
     /*Imagen y texto del primer article */
-    #lg1{
-        display: flex;
-        position: absolute;
-        width: 11.3vw;
-        margin-top: 6vw;
-        margin-left: 8vw;
-    }
-    #lg2{
-        display: flex;
-        position: absolute;
-        width: 11.3vw;
-        margin-top: 3vw;
-        margin-left: 82.6vw;
-    }
-
+   
     #sp1{
-        display: flex;
-        position: absolute;
-        color: white;
-        font-size: 2.7vw;
-        text-align: left;
-        margin-top: 6vw;
-        margin-left: 19vw;
-        width: 60vw;
-        padding: 1vw;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-        background-color: hsla(180, 1%, 54%, 0.57);
-        border: black solid 1.14vw;
-        line-height: 1.84vw;
+      font-size: 2.5vw;
+      padding-bottom:1vw;
+      text-align: center;
     }
     /*Primer boton saber más en movil*/
     #more1{
-      
         left: 45vw;
         top: 30vw;
+    }
+    /*Imagen y texto del segundo article */
+    #sp2{
+        font-size: 2vw;
+        margin-left: 15vw;
+        width: 70%;
+        text-align: center;
+        border-color: black;
+    }
+    #nariz{
+        margin-top:  20vw; ;
     }
     /*Segundo boton saber más en movil*/
     #more2{
