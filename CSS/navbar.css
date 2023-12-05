@@ -90,18 +90,19 @@ button img{
         margin: 0;
         padding: 0;
         overflow: hidden;
+        
     }
 
     .navmovil li a {
         display: block;
         color: white;
         text-align: center;
-        padding: 1em 5em;
+        padding:2vw;
         text-decoration: none;
     }
     .navmovil li a#active {
         background-color: rgb(165, 161, 161);
-        padding: 0.75em;
+        padding: 2vw;
         font-size: 18px;
     }
 }
