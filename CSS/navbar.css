@@ -105,7 +105,7 @@ button img{
     width: 12vw;
     height: 12vw;
     left: 69vw;
-    top: 44vw;
+    top: 121.4vw;
 }
 #sp2{
     display: flex;
@@ -141,7 +141,7 @@ button img{
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 30vw;
+    top: 27vw;
 }
 
 #more1 a{
@@ -170,7 +170,7 @@ button img{
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 70vw;
+    top: 72.5vw;
 }
 
 #more2 a{
@@ -285,7 +285,7 @@ button img{
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 150vw;
+    top: 147vw;
 }
 
 #more4 a{
