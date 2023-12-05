@@ -67,11 +67,9 @@ button img{
 
 .banner1{
     position: relative;
-}
-
-#banner1{
     width: 100%;
 }
+
 
 .navmovil{
     display: none;
@@ -79,14 +77,14 @@ button img{
 }
 
 #separador1{
-    background-color: red;
+    background-color: #18473d;
     margin-top: -0.7vw;
     height: 3vw;
 }
 footer{
     position: absolute;
     display: flexbox;
-    background-color: red;
+    background-color: #18473d;
     color: white;
     font-size: 0.7vw;
     text-align: left;
