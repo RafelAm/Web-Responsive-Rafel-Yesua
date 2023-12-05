@@ -245,15 +245,17 @@ button img{
     display: flex;
     position: absolute;
     width: 19vw;
-    margin-top: -3.5vw;
+    margin-top: -3.55vw;
     margin-left: 41vw;
+    z-index: 2;
 
 }
 #nariz{
     position: absolute;
-    width: 19vw;
-    margin-top: 19vw;
-    margin-left: 41vw;
+    width: 12vw;
+    margin-top: 21.5vw;
+    margin-left: 44.5vw;
+    z-index: 2;
 }
 
 
