@@ -1,0 +1,298 @@
+/*Imagen y texto del primer article */
+#lg1{
+    display: flex;
+    position: absolute;
+    width: 70vw;
+    margin-top: 2vw;
+    margin-left: 15.5vw;
+}
+#sp1{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 4.3vw;
+    margin-left: 28vw;
+    width: 43.8vw;
+    padding: 0.6vw;
+    padding-bottom: 12vw;
+    background-color: hsla(0, 0%, 0%, 0.57);
+    line-height: 1.81vw;
+}
+/*Imagen y texto del segundo article*/
+#disc{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    left: 69vw;
+    top: 121.4vw;
+}
+#sp2{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+
+/*Botom saber más*/
+#more1{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 22vw;
+}
+
+#more1 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more1 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+/*Segundo boton saber más*/
+#more2{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 70vw;
+}
+
+#more2 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more2 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+#sword{
+    display: flex;
+    position: absolute;
+    width: 21vw;
+    margin-top: -27vw;
+    margin-left: 35vw;
+    rotate: -90deg;
+}
+
+#sp3{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+/*Tercer boton saber más*/
+#more3{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 108vw;
+}
+
+#more3 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more3 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+#gorra{
+    display: flex;
+    position: absolute;
+    width: 19vw;
+    margin-top: -3.55vw;
+    margin-left: 41vw;
+    z-index: 2;
+
+}
+#nariz{
+    position: absolute;
+    width: 12vw;
+    margin-top: 19vw;
+    margin-left: 44.5vw;
+    z-index: 2;
+}
+
+
+#sp4{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.25vw;
+    text-align: left;
+    margin-top: 8.7vw;
+    margin-left: 28.1vw;
+    width: 43.8vw;
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: hsla(180, 1%, 54%, 0.57);
+    border: rgb(255, 255, 255) solid 0.5vw;
+    line-height: 1.81vw;
+}
+
+/*Cuarto boton saber más*/
+#more4{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 1.2vw;
+    width: 11vw;
+    height: 4vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    left: 45vw;
+    top: 147vw;
+}
+
+#more4 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#more4 a:hover{
+    padding: 1.1vw;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+/*Banner de fondo 1*/
+.banner1{
+    position: relative;
+}
+
+#banner1{
+    width: 100%;
+}
+
+/*Separadro de contenido*/
+#separador1{
+    background-color: red;
+    margin-top: -0.7vw;
+    height: 3vw;
+}
+@media screen and (max-width: 426px){
+    /*Imagen y texto del primer article */
+   
+    #sp1{
+      font-size: 2.5vw;
+      padding-bottom:1vw;
+      text-align: center;
+    }
+    /*Primer boton saber más en movil*/
+    #more1{
+        left: 45vw;
+        top: 30vw;
+    }
+    /*Imagen y texto del segundo article */
+    #sp2{
+        font-size: 2vw;
+        margin-left: 15vw;
+        width: 70%;
+        text-align: center;
+        border-color: black;
+        background-color: hsla(0, 0%, 0%, 0.57);
+    }
+    #nariz{
+        margin-top:  20vw; ;
+    }
+    /*Segundo boton saber más en movil*/
+    #more2{
+        left: 45vw;
+        top: 107vw;
+    }
+    /*texto del tercer article */
+    #sp3{
+        width: 60%;
+        margin-top: 10.5vw;
+        background-color: hsla(0, 0%, 0%, 0.57);
+        border-color: black;
+    }
+    /*Tercer boton saber más en movil*/
+    #more3{
+        left: 45vw;
+        top: 145vw;
+    }
+    /*Imagen y texto del cuarto article */
+    #sp4{
+        margin-top: 10.5vw;
+        background-color: hsla(0, 0%, 0%, 0.57);
+        border-color: black;
+        
+    }
+    #disc{
+        top:159.5vw
+    }
+    /*Cuarto boton saber más en movil*/
+    #more4{
+        left: 45vw;
+        top: 185vw;
+    }
+    #separador1{
+        margin-top: -1vw;
+    }
+
+}
