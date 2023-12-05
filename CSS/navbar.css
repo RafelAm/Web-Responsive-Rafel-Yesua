@@ -22,25 +22,26 @@
     position: absolute;
     background-color: #f9f9f9;
     min-width: 20vw;
+    margin-top: -0.9vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     
 }
 
 .dropdown-content a {
-    color: white;
+    color: gold;
     padding: 1vw 1vw;
     text-decoration: none;
     font-weight: bold;
     display: block;
-    background-color: red;
+    background-color: #18473d;
     font-size: 0.9vw;
     width: 20vw;
 }
 
 .dropdown-content a:hover {
-    background-color: white;
-    color: red;
+    background-color: #11342c;
+    color: gold;
     font-weight: bold;
     
 }
@@ -51,133 +52,17 @@
 
 .dropdown:hover .dropbtn {
     color: white;
-    background-color: red;
+    background-color: #18473d;
 }
 nav{
-    background-color: red;
+    background-color: #18473d;
     height: 3.3vw;
 }
 
 button img{
     background-color: transparent;
-    height: 1.6vw;
-}
-
-#lg3{
-    display: none ;
-}
-#sp3{
-    display: none;
-}
-
-#lg2{
-    display: flex;
-    position: absolute;
-    width: 8vw;
-    margin-top: 6vw;
-    margin-left: 75.92vw;
-}
-
-#lg1{
-    display: flex;
-    position: absolute;
-    width: 7.95vw;
-    margin-top: 8.63vw;
-    margin-left: 20.4vw;
-}
-
-#sp1{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: black solid 1.14vw;
-    line-height: 1.81vw;
-}
-#more1{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: red;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
-    border: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 30vw;
-}
-
-#more1 a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#more1 a:hover{
-    padding: 1.1vw;
-    color: red;
-    background-color: white;
-    text-decoration: none;
-}
-
-#sp2{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
-    line-height: 1.81vw;
-}
-
-#more2{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: red;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
-    border: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 70vw;
-}
-
-#more2 a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#more2 a:hover{
-    padding: 1.1vw;
-    color: red;
-    background-color: white;
-    text-decoration: none;
-}
-
-#disc{
-    
-    position: absolute;
-    width: 12vw;
-    height: 12vw;
-    left: 69vw;
-    top: 44vw;
+    height: 3vw;
+    margin-top: -0.5vw;
 }
 
 .banner1{
