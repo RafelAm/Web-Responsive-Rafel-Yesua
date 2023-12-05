@@ -245,8 +245,9 @@ button img{
     display: flex;
     position: absolute;
     width: 19vw;
-    margin-top: -3.5vw;
+    margin-top: -3.55vw;
     margin-left: 41vw;
+    z-index: 2;
 
 }
 #nariz{
@@ -254,6 +255,7 @@ button img{
     width: 19vw;
     margin-top: 19vw;
     margin-left: 41vw;
+    z-index: 2;
 }
 
 
