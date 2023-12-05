@@ -8,11 +8,21 @@
     position: relative;
     display: inline-block;
 }
-
+/*Icono de nintendo en el Index*/
 .dropbtn {
     background-color: transparent;
     color: white;
     padding: 0.7vw;
+    font-size: 0.9vw;
+    border: none;
+    cursor: pointer;
+}
+/*Modificacion del icono de Mario solo sera 
+efectivo en la Web de mario*/
+.botonMario{
+    background-color: transparent;
+    color: white;
+    padding: 0.5vw;
     font-size: 0.9vw;
     border: none;
     cursor: pointer;
