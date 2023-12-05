@@ -244,10 +244,6 @@
 }
 
 
-.navmovil{
-    display: none;
-
-}
 /*Separadro de contenido*/
 #separador1{
     background-color: red;
@@ -258,7 +254,7 @@
     #lg3,#sp3{
         display: flex;
     }
-    
+
     /*Imagen y texto del primer article */
     #lg1{
         display: flex;

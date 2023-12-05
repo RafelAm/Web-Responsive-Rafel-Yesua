@@ -64,9 +64,13 @@ button img{
     background-color: transparent;
     height: 1.6vw;
 }
+.navmovil{
+    display: none;
+
+}
 
 /*CSS Tamaño móvil*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     *{
         margin:0;
     }
@@ -74,10 +78,8 @@ button img{
         height: auto;
         background-color: none;
     }
-
     .dropdown {
         display: none;
-        position: absolute;
     }
     .logo img{
         width: 6em;
