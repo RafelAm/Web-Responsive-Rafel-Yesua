@@ -1,0 +1,17 @@
+/*Pie de página*/
+footer{
+    position: absolute;
+    display: flexbox;
+    background-color: red;
+    color: white;
+    font-size: 0.7vw;
+    text-align: left;
+    width: 95.99%;
+    padding: 2vw;
+
+}
+/*Iconos de las redes sociales*/
+.social{
+    width: 2vw;
+    height: 2vw;
+}
