@@ -12,11 +12,12 @@
     color: white;
     font-size: 1.25vw;
     text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
+    margin-top: 4.3vw;
+    margin-left: 28vw;
     width: 43.8vw;
-    padding: 1vw;
-    background-color: hsla(180, 1%, 54%, 0.57);
+    padding: 0.6vw;
+    padding-bottom: 12vw;
+    background-color: hsla(0, 0%, 0%, 0.57);
     line-height: 1.81vw;
 }
 /*Imagen y texto del segundo article*/
@@ -62,7 +63,7 @@
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 27vw;
+    top: 22vw;
 }
 
 #more1 a{
@@ -91,7 +92,7 @@
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 72.5vw;
+    top: 70vw;
 }
 
 #more2 a{
@@ -174,7 +175,7 @@
 #nariz{
     position: absolute;
     width: 12vw;
-    margin-top: 21.5vw;
+    margin-top: 19vw;
     margin-left: 44.5vw;
     z-index: 2;
 }
