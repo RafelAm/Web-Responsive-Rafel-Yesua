@@ -243,14 +243,13 @@
     width: 100%;
 }
 
-
 /*Separadro de contenido*/
 #separador1{
     background-color: red;
     margin-top: -0.7vw;
     height: 3vw;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
     #lg3,#sp3{
         display: flex;
     }
@@ -285,5 +284,26 @@
         background-color: hsla(180, 1%, 54%, 0.57);
         border: black solid 1.14vw;
         line-height: 1.84vw;
+    }
+    /*Primer boton saber más en movil*/
+    #more1{
+      
+        left: 45vw;
+        top: 30vw;
+    }
+    /*Segundo boton saber más en movil*/
+    #more2{
+        left: 45vw;
+        top: 120vw;
+    }
+    /*Tercer boton saber más en movil*/
+    #more3{
+        left: 45vw;
+        top: 157vw;
+    }
+    /*Cuarto boton saber más en movil*/
+    #more4{
+        left: 45vw;
+        top: 198vw;
     }
 }
