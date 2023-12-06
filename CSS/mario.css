@@ -2,9 +2,9 @@
 #lg1{
     display: flex;
     position: absolute;
-    width: 70vw;
-    margin-top: 2vw;
-    margin-left: 15.5vw;
+    width: 40vw;
+    margin-top: 16vw;
+    margin-left: 2vw;
 }
 #sp1{
     display: flex;
@@ -12,14 +12,15 @@
     color: white;
     font-size: 1.25vw;
     text-align: left;
-    margin-top: 4.3vw;
-    margin-left: 28vw;
+    margin-top: 24vw;
+    margin-left: 44.5vw;
     width: 43.8vw;
-    padding: 0.6vw;
-    padding-bottom: 12vw;
+    padding: 3.5vw;
+    border-color: red 3px;
     background-color: hsla(0, 0%, 0%, 0.57);
     line-height: 1.81vw;
 }
+
 /*Imagen y texto del segundo article*/
 #disc{
     position: absolute;
@@ -34,13 +35,13 @@
     color: white;
     font-size: 1.25vw;
     text-align: left;
-    margin-top: 8.7vw;
+    margin-top: 18vw;
     margin-left: 28.1vw;
     width: 43.8vw;
     padding: 1vw;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
+    background-color: hsla(300, 23%, 42%, 0.57);
+    border: rgb(139, 52, 222) solid 0.5vw;
     line-height: 1.81vw;
 }
 
@@ -56,8 +57,8 @@
     height: 4vw;
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 22vw;
+    left: 65vw;
+    top: 41.5vw;
 }
 
 #more1 a{
@@ -79,14 +80,14 @@
     display: block;
     position: absolute;
     color: white;
-    background-color: red;
+    background-color: rgb(139, 52, 222);
     font-size: 1.2vw;
     width: 11vw;
     height: 4vw;
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 70vw;
+    top: 100vw;
 }
 
 #more2 a{
@@ -97,7 +98,7 @@
 
 #more2 a:hover{
     padding: 1.1vw;
-    color: red;
+    color: rgb(139, 52, 222);
     background-color: white;
     text-decoration: none;
 }
@@ -118,13 +119,13 @@
     color: white;
     font-size: 1.25vw;
     text-align: left;
-    margin-top: 8.7vw;
+    margin-top: 17vw;
     margin-left: 28.1vw;
     width: 43.8vw;
     padding: 1vw;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
+    background-color: hsla(180, 1%, 54%, 0.8);
+    border: white solid 0.5vw;
     line-height: 1.81vw;
 }
 
@@ -132,27 +133,27 @@
 #more3{
     display: block;
     position: absolute;
-    color: white;
-    background-color: red;
+    color: red;
+    background-color: white;
     font-size: 1.2vw;
     width: 11vw;
     height: 4vw;
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     left: 45vw;
-    top: 108vw;
+    top: 157vw;
 }
 
 #more3 a{
     display: block;
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
 #more3 a:hover{
     padding: 1.1vw;
-    color: red;
-    background-color: white;
+    color: white;
+    background-color: red;
     text-decoration: none;
 }
 
@@ -189,34 +190,6 @@
     background-color: hsla(180, 1%, 54%, 0.57);
     border: rgb(255, 255, 255) solid 0.5vw;
     line-height: 1.81vw;
-}
-
-/*Cuarto boton saber más*/
-#more4{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: red;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
-    border: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 147vw;
-}
-
-#more4 a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#more4 a:hover{
-    padding: 1.1vw;
-    color: red;
-    background-color: white;
-    text-decoration: none;
 }
 
 /*Banner de fondo 1*/
@@ -281,24 +254,6 @@
     #more3{
         left: 45vw;
         top: 145vw;
-    }
-    /*Imagen y texto del cuarto article */
-    #sp4{
-        margin-top: 10.5vw;
-        background-color: hsla(0, 0%, 0%, 0.57);
-        border-color: black;
-        
-    }
-    #disc{
-        top:159.5vw
-    }
-    /*Cuarto boton saber más en movil*/
-    #more4{
-        left: 45vw;
-        top: 185vw;
-    }
-    #separador1{
-        margin-top: -1vw;
     }
 
 }
