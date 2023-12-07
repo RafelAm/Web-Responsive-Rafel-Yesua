@@ -22,13 +22,6 @@
 }
 
 /*Imagen y texto del segundo article*/
-#disc{
-    position: absolute;
-    width: 12vw;
-    height: 12vw;
-    left: 69vw;
-    top: 121.4vw;
-}
 #sp2{
     display: flex;
     position: absolute;
@@ -45,8 +38,7 @@
     line-height: 1.81vw;
 }
 
-
-/*Botom saber más*/
+/*Primer botón saber más*/
 #more1{
     display: block;
     position: absolute;
@@ -74,8 +66,7 @@
     text-decoration: none;
 }
 
-
-/*Segundo boton saber más*/
+/*Segundo botón saber más*/
 #more2{
     display: block;
     position: absolute;
@@ -103,16 +94,6 @@
     text-decoration: none;
 }
 
-
-#sword{
-    display: flex;
-    position: absolute;
-    width: 21vw;
-    margin-top: -27vw;
-    margin-left: 35vw;
-    rotate: -90deg;
-}
-
 #sp3{
     display: flex;
     position: absolute;
@@ -129,7 +110,7 @@
     line-height: 1.81vw;
 }
 
-/*Tercer boton saber más*/
+/*Tercer botón saber más*/
 #more3{
     display: block;
     position: absolute;
@@ -157,42 +138,7 @@
     text-decoration: none;
 }
 
-
-#gorra{
-    display: flex;
-    position: absolute;
-    width: 19vw;
-    margin-top: -3.55vw;
-    margin-left: 41vw;
-    z-index: 2;
-
-}
-#nariz{
-    position: absolute;
-    width: 12vw;
-    margin-top: 19vw;
-    margin-left: 44.5vw;
-    z-index: 2;
-}
-
-
-#sp4{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
-    line-height: 1.81vw;
-}
-
-/*Banner de fondo 1*/
+/*Banner de fondo*/
 .banner1{
     position: relative;
 }
@@ -211,49 +157,4 @@
 .LogoMario {
     width: 2vw;
     height: 2vw;
-}
-
-@media screen and (max-width: 426px){
-    /*Imagen y texto del primer article */
-   
-    #sp1{
-      font-size: 2.5vw;
-      padding-bottom:1vw;
-      text-align: center;
-    }
-    /*Primer boton saber más en movil*/
-    #more1{
-        left: 45vw;
-        top: 30vw;
-    }
-    /*Imagen y texto del segundo article */
-    #sp2{
-        font-size: 2vw;
-        margin-left: 15vw;
-        width: 70%;
-        text-align: center;
-        border-color: black;
-        background-color: hsla(0, 0%, 0%, 0.57);
-    }
-    #nariz{
-        margin-top:  20vw; ;
-    }
-    /*Segundo boton saber más en movil*/
-    #more2{
-        left: 45vw;
-        top: 107vw;
-    }
-    /*texto del tercer article */
-    #sp3{
-        width: 60%;
-        margin-top: 10.5vw;
-        background-color: hsla(0, 0%, 0%, 0.57);
-        border-color: black;
-    }
-    /*Tercer boton saber más en movil*/
-    #more3{
-        left: 45vw;
-        top: 145vw;
-    }
-
 }

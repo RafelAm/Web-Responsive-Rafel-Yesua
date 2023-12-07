@@ -45,7 +45,7 @@
 }
 
 
-/*Botom saber más*/
+/*Primer botón saber más*/
 #more1{
     display: block;
     position: absolute;
@@ -74,7 +74,7 @@
 }
 
 
-/*Segundo boton saber más*/
+/*Segundo botón saber más*/
 #more2{
     display: block;
     position: absolute;
@@ -128,7 +128,7 @@
     line-height: 1.81vw;
 }
 
-/*Tercer boton saber más*/
+/*Tercer botón saber más*/
 #more3{
     display: block;
     position: absolute;
@@ -191,7 +191,7 @@
     line-height: 1.81vw;
 }
 
-/*Cuarto boton saber más*/
+/*Cuarto botón saber más*/
 #more4{
     display: block;
     position: absolute;
