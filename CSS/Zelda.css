@@ -2,23 +2,20 @@
     margin: 0;
 }
 
-#banner1{
-    position: relative;
-    z-index: 1;
-}
+
 
 #more1{
     position: absolute;
     display: block;
     color: gold;
     background-color: #18473d;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
+    font-size: 2.5vw;
+    width: 27vw;
+    height: 10vw;
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 44vw;
-    top: 44vw;
+    left: 35vw;
+    top: 8vw;
     z-index: 2;
 }
 #more1 a{
@@ -28,7 +25,8 @@
 }
 
 #more1 a:hover{
-    padding: 1.1vw;
+    padding: 3.1vw;
+    border: solid gold 0.25vw;
     color: gold;
     background-color: #11342c;
     text-decoration: none;
@@ -36,4 +34,16 @@
 
 #img1{
     height: auto;
+}
+
+#banner1{
+    position: relative;
+    z-index: 1;
+}
+#textZel{
+    position: absolute;
+    top: 80vw;
+    font-size: 1.2vw;
+    
+    z-index: 2;
 }
