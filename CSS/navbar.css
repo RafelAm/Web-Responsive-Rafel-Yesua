@@ -1,5 +1,5 @@
 
-/*Parametros de la web*/
+/*Parametros generales de la web*/
 *{
     margin:0;
 }
@@ -10,6 +10,7 @@
 }
 
 /*Icono de nintendo en el Index*/
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -18,6 +19,7 @@
     border: none;
     cursor: pointer;
 }
+
 /*Modificacion del icono de Mario solo sera efectivo en la Web de mario*/
 .botonMario{
     background-color: transparent;
@@ -28,6 +30,9 @@
     cursor: pointer;
 }
 
+
+/*Contenido del boton de despligue*/
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -37,6 +42,8 @@
     z-index: 1;
     
 }
+
+/*Links del del botón de despligue*/
 
 .dropdown-content a {
     color: white;
@@ -64,16 +71,22 @@
     color: white;
     background-color: red;
 }
-/*Parámetros del fondo y tamaño navbar*/
+
+/*Parametros de color y tamaño de la barra de navegación*/
+
 nav{
     background-color: red;
     height: 3.3vw;
 }
 
+/*Parámetros de la imagen de la barra de navegación*/
+
 button img{
     background-color: transparent;
     height: 1.6vw;
 }
+
+/*Barra de navegación móvil oculta*/
 
 .navmovil{
     display: none;
@@ -91,15 +104,18 @@ button img{
         background-color: none;
     }
     /*Boton de navegación oculto*/
+
     .dropdown,.dropdownZelda {
         display: none;
     }
     /*Logo del menú movil, tamaño*/
     .logo img{
+
         width: 3em;
     }
     /*Parámetros de menu de movil*/
     .navmovil,.navmovilZelda {
+        width: 6em;
         display: block;
         list-style-type: none;
         margin: 0;
@@ -123,6 +139,7 @@ button img{
     hr{
         color: black;
     }
+
     /*Nav Zelda*/
      /*Parámetros de menu de movil*/
      .navmovilZelda {
@@ -146,5 +163,6 @@ button img{
         padding: 0.1em;
         font-size: 18px;
     }
+
 }
 

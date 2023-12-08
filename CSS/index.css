@@ -102,7 +102,7 @@
     text-decoration: none;
 }
 
-
+/*Decoración de Zelda */
 #sword{
     display: flex;
     position: absolute;
@@ -111,7 +111,7 @@
     margin-left: 35vw;
     rotate: -90deg;
 }
-
+/*Texto de Zelda Tears of the Kingdom*/
 #sp3{
     display: flex;
     position: absolute;
@@ -156,7 +156,7 @@
     text-decoration: none;
 }
 
-
+/*Decoración de Mario en el texto*/
 #gorra{
     display: flex;
     position: absolute;
@@ -174,7 +174,7 @@
     z-index: 2;
 }
 
-
+/*Texto de la tienda de Nintendo*/
 #sp4{
     display: flex;
     position: absolute;
@@ -223,7 +223,7 @@
 .banner1{
     position: relative;
 }
-
+/*Esto esta aquí porque se buguea la web (Si se quita mueve todos los saber más y no los deja recolocar de nuevo :( )*/
 #banner1{
     width: 100%;
 }
@@ -234,6 +234,30 @@
     margin-top: -0.7vw;
     height: 3vw;
 }
+
+/*Parámetros de audio*/
+audio {
+    display: block;
+    align-items: left;
+    margin-top: -3.5vw;
+    margin-left: 8vw;
+    width: 11vw;
+    height: 3.5vw;
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: red;
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  audio::-webkit-media-controls-timeline {
+    color: transparent;
+    display: none;
+    
+  }
+  
+
 @media screen and (max-width: 426px){
     /*Imagen y texto del primer article */
    
@@ -244,8 +268,11 @@
     }
     /*Primer boton saber más en movil*/
     #more1{
-        left: 45vw;
-        top: 30vw;
+        left: 43vw;
+        top: 59vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*Imagen y texto del segundo article */
     #sp2{
@@ -261,38 +288,56 @@
     }
     /*Segundo boton saber más en movil*/
     #more2{
-        left: 45vw;
-        top: 107vw;
+        left: 43vw;
+        top: 98vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*texto del tercer article */
     #sp3{
         width: 60%;
-        margin-top: 10.5vw;
+        margin-top: 5vw;
         background-color: hsla(0, 0%, 0%, 0.57);
         border-color: black;
+        font-size: 2vw;
+        line-height: 2.2vw;
     }
     /*Tercer boton saber más en movil*/
     #more3{
         left: 45vw;
-        top: 145vw;
+        top: 138vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*Imagen y texto del cuarto article */
     #sp4{
-        margin-top: 10.5vw;
+        margin-top: 1vw;
         background-color: hsla(0, 0%, 0%, 0.57);
         border-color: black;
-        
+        font-size: 2vw;
+        line-height: 2.2vw;
     }
     #disc{
-        top:159.5vw
+        top:143vw;
+        width: 15vw;
+        height: 15vw;
     }
     /*Cuarto boton saber más en movil*/
     #more4{
-        left: 45vw;
-        top: 185vw;
+        left: 44vw;
+        top: 178.5vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 5vw;
     }
     #separador1{
         margin-top: -1vw;
+    }
+    /*Parámetros de audio*/
+    audio {
+        display: none;
     }
 
 }
