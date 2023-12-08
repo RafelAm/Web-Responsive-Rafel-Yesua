@@ -9,8 +9,8 @@
     display: block;
     color: gold;
     background-color: #18473d;
-    font-size: 2.5vw;
-    width: 27vw;
+    font-size: 1.5vw;
+    width: 24vw;
     height: 10vw;
     border: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -25,7 +25,7 @@
 }
 
 #more1 a:hover{
-    padding: 3.1vw;
+    padding: 3.5vw;
     border: solid gold 0.25vw;
     color: gold;
     background-color: #11342c;
@@ -40,10 +40,22 @@
     position: relative;
     z-index: 1;
 }
+
 #textZel{
+    display: flex;
     position: absolute;
-    top: 80vw;
-    font-size: 1.2vw;
-    
+    color: black;
+    font-size: 1vw;
+    text-align: left;
+    left: 24vw;
+    width: 43.8vw;
+    padding: 2.01vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #eee;
+    line-height: 1.236vw;
+    top: 61.55vw;
     z-index: 2;
 }
+
+
