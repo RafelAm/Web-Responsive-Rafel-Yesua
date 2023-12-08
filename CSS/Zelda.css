@@ -89,7 +89,7 @@
         border: 0;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
         left: 37vw;
-        top: 46vw;
+        top: 41vw;
         z-index: 2;
     }
     #more-Zelda a{
@@ -119,14 +119,14 @@
         padding-right: 5vw;
         background-color: #eee;
         line-height: 2vw;
-        top: 103.7vw;
+        top: 96vw;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
         z-index: 2;
     }
     
     #titleZ{
         position: absolute;
-        top: 104vw;
+        top: 96vw;
         left: 37vw;
         color: rgb(241, 241, 55);
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.79);
