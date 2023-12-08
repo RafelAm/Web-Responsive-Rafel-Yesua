@@ -8,7 +8,9 @@
     position: relative;
     display: inline-block;
 }
-/*Botón de despligue con logotipo*/
+
+/*Icono de nintendo en el Index*/
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -17,7 +19,20 @@
     border: none;
     cursor: pointer;
 }
+
+/*Modificacion del icono de Mario solo sera efectivo en la Web de mario*/
+.botonMario{
+    background-color: transparent;
+    color: white;
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    border: none;
+    cursor: pointer;
+}
+
+
 /*Contenido del boton de despligue*/
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -27,7 +42,9 @@
     z-index: 1;
     
 }
+
 /*Links del del botón de despligue*/
+
 .dropdown-content a {
     color: white;
     padding: 1vw 1vw;
@@ -54,17 +71,23 @@
     color: white;
     background-color: red;
 }
+
 /*Parametros de color y tamaño de la barra de navegación*/
+
 nav{
     background-color: red;
     height: 3.3vw;
 }
+
 /*Parámetros de la imagen de la barra de navegación*/
+
 button img{
     background-color: transparent;
     height: 1.6vw;
 }
+
 /*Barra de navegación móvil oculta*/
+
 .navmovil{
     display: none;
 }
@@ -81,15 +104,18 @@ button img{
         background-color: none;
     }
     /*Boton de navegación oculto*/
-    .dropdown {
+
+    .dropdown,.dropdownZelda {
         display: none;
     }
     /*Logo del menú movil, tamaño*/
     .logo img{
-        width: 6em;
+
+        width: 3em;
     }
     /*Parámetros de menu de movil*/
-    .navmovil {
+    .navmovil,.navmovilZelda {
+        width: 6em;
         display: block;
         list-style-type: none;
         margin: 0;
@@ -113,5 +139,30 @@ button img{
     hr{
         color: black;
     }
+
+    /*Nav Zelda*/
+     /*Parámetros de menu de movil*/
+     .navmovilZelda {
+        display: block;
+        background-color: #11342c;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    /*Parámetros de los links de la navbar*/
+    .navmovilZelda li a {
+        display: block;
+        color: gold;
+        text-align: center;
+        padding: 2.5vw;
+        text-decoration: none;
+    }
+    .navmovilZelda li a#active {
+        background-color: #18473d;
+        padding: 0.1em;
+        font-size: 18px;
+    }
+
 }
 
