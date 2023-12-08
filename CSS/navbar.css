@@ -1,13 +1,14 @@
 
+/*Parametros generales de la web*/
 *{
     margin:0;
 }
-
+/*Parámetros del menú de navbar*/
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+/*Botón de despligue con logotipo*/
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -16,7 +17,7 @@
     border: none;
     cursor: pointer;
 }
-
+/*Contenido del boton de despligue*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -26,7 +27,7 @@
     z-index: 1;
     
 }
-
+/*Links del del botón de despligue*/
 .dropdown-content a {
     color: white;
     padding: 1vw 1vw;
@@ -53,210 +54,64 @@
     color: white;
     background-color: red;
 }
+/*Parametros de color y tamaño de la barra de navegación*/
 nav{
     background-color: red;
     height: 3.3vw;
 }
-
+/*Parámetros de la imagen de la barra de navegación*/
 button img{
     background-color: transparent;
     height: 1.6vw;
 }
-
-#lg3{
-    display: none ;
-}
-#sp3{
-    display: none;
-}
-
-#lg2{
-    display: flex;
-    position: absolute;
-    width: 8vw;
-    margin-top: 6vw;
-    margin-left: 75.92vw;
-}
-
-#lg1{
-    display: flex;
-    position: absolute;
-    width: 7.95vw;
-    margin-top: 8.63vw;
-    margin-left: 20.4vw;
-}
-
-#sp1{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: black solid 1.14vw;
-    line-height: 1.81vw;
-}
-#more1{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: red;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
-    border: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 30vw;
-}
-
-#more1 a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#more1 a:hover{
-    padding: 1.1vw;
-    color: red;
-    background-color: white;
-    text-decoration: none;
-}
-
-#sp2{
-    display: flex;
-    position: absolute;
-    color: white;
-    font-size: 1.25vw;
-    text-align: left;
-    margin-top: 8.7vw;
-    margin-left: 28.1vw;
-    width: 43.8vw;
-    padding: 1vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background-color: hsla(180, 1%, 54%, 0.57);
-    border: rgb(255, 255, 255) solid 0.5vw;
-    line-height: 1.81vw;
-}
-
-#more2{
-    display: block;
-    position: absolute;
-    color: white;
-    background-color: red;
-    font-size: 1.2vw;
-    width: 11vw;
-    height: 4vw;
-    border: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    left: 45vw;
-    top: 70vw;
-}
-
-#more2 a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#more2 a:hover{
-    padding: 1.1vw;
-    color: red;
-    background-color: white;
-    text-decoration: none;
-}
-
-#disc{
-    
-    position: absolute;
-    width: 12vw;
-    height: 12vw;
-    left: 69vw;
-    top: 44vw;
-}
-
-.banner1{
-    position: relative;
-}
-
-#banner1{
-    width: 100%;
-}
-
+/*Barra de navegación móvil oculta*/
 .navmovil{
     display: none;
-
 }
 
-#separador1{
-    background-color: red;
-    margin-top: -0.7vw;
-    height: 3vw;
-}
-footer{
-    position: absolute;
-    display: flexbox;
-    background-color: red;
-    color: white;
-    font-size: 0.7vw;
-    text-align: left;
-    width: 95.99%;
-    padding: 2vw;
-
-}
-
-.social{
-    width: 2vw;
-    height: 2vw;
-}
-#bannermovil1{
-    display:none;
-}
-
-@media screen and (max-width: 740px) {
+/*CSS Tamaño móvil*/
+@media screen and (max-width: 426px) {
+    /*Parámetros generales de la web*/
     *{
         margin:0;
     }
+    /*Parámetros de la navbar*/
     nav {
         height: auto;
         background-color: none;
     }
-
+    /*Boton de navegación oculto*/
     .dropdown {
         display: none;
-        position: absolute;
     }
+    /*Logo del menú movil, tamaño*/
     .logo img{
         width: 6em;
     }
+    /*Parámetros de menu de movil*/
     .navmovil {
         display: block;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
+        
     }
-
+    /*Parámetros de los links de la navbar*/
     .navmovil li a {
         display: block;
         color: white;
         text-align: center;
-        padding: 1em 5em;
+        padding:2vw;
         text-decoration: none;
     }
     .navmovil li a#active {
         background-color: rgb(165, 161, 161);
-        padding: 0.75em;
-        font-size: 18px;
+        padding: 2vw;
+        font-size: 4vw;
     }
-    #lg3,#sp3{
-        display: flex;
+    hr{
+        color: black;
     }
-    
 }
 
