@@ -235,6 +235,11 @@
     height: 3vw;
 }
 
+
+#SonidoFondo{
+    position: absolute;
+}
+
 @media screen and (max-width: 426px){
     /*Imagen y texto del primer article */
    
