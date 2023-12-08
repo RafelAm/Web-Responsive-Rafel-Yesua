@@ -235,10 +235,26 @@
     height: 3vw;
 }
 
-
-#SonidoFondo{
-    position: absolute;
-}
+/*Parámetros de audio*/
+audio {
+    display: block;
+    align-items: left;
+    margin-top: -3.5vw;
+    margin-left: 8vw;
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: red;
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  audio::-webkit-media-controls-timeline {
+    color: transparent;
+    display: none;
+    
+  }
+  
 
 @media screen and (max-width: 426px){
     /*Imagen y texto del primer article */
