@@ -147,6 +147,7 @@
     /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
     #img1{
         height: 56.2vw;
+        margin-top: 41vw;
     }
     /*Parámetros del separador  de color verde*/
     #separador-Zelda{

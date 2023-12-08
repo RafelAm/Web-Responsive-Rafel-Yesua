@@ -98,7 +98,7 @@ button img{
     height: 1.6vw;
 }
 /*Barra de navegación móvil oculta*/
-.navmovil{
+.navmovil,.navmovilZelda{
     display: none;
 }
 
@@ -114,7 +114,7 @@ button img{
         background-color: none;
     }
     /*Boton de navegación oculto*/
-    .dropdown {
+    .dropdown,.dropdownZelda {
         display: none;
     }
     /*Logo del menú movil, tamaño*/
@@ -122,7 +122,7 @@ button img{
         width: 6em;
     }
     /*Parámetros de menu de movil*/
-    .navmovil {
+    .navmovil,.navmovilZelda {
         display: block;
         list-style-type: none;
         margin: 0;
@@ -145,6 +145,29 @@ button img{
     }
     hr{
         color: black;
+    }
+    /*Nav Zelda*/
+     /*Parámetros de menu de movil*/
+     .navmovilZelda {
+        display: block;
+        background-color: #11342c;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    /*Parámetros de los links de la navbar*/
+    .navmovilZelda li a {
+        display: block;
+        color: gold;
+        text-align: center;
+        padding: 2.5vw;
+        text-decoration: none;
+    }
+    .navmovilZelda li a#active {
+        background-color: #18473d;
+        padding: 0.1em;
+        font-size: 18px;
     }
 }
 
