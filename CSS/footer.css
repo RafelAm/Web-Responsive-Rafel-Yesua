@@ -14,6 +14,7 @@ footer{
     width: 2vw;
     height: 2vw;
 }
+/*Footer para moviles*/
 @media screen and (max-width: 426px){
     footer{
         font-size: 3vw;
