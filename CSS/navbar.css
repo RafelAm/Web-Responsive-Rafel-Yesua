@@ -1,0 +1,168 @@
+
+/*Parametros generales de la web*/
+*{
+    margin:0;
+}
+/*Parámetros del menú de navbar*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/*Icono de nintendo en el Index*/
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 0.7vw;
+    font-size: 0.9vw;
+    border: none;
+    cursor: pointer;
+}
+
+/*Modificacion del icono de Mario solo sera efectivo en la Web de mario*/
+.botonMario{
+    background-color: transparent;
+    color: white;
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*Contenido del boton de despligue*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+/*Links del del botón de despligue*/
+
+.dropdown-content a {
+    color: white;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    background-color: red;
+    font-size: 0.9vw;
+    width: 20vw;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+    background-color: red;
+}
+
+/*Parametros de color y tamaño de la barra de navegación*/
+
+nav{
+    background-color: red;
+    height: 3.3vw;
+}
+
+/*Parámetros de la imagen de la barra de navegación*/
+
+button img{
+    background-color: transparent;
+    height: 1.6vw;
+}
+
+/*Barra de navegación móvil oculta*/
+
+.navmovil{
+    display: none;
+}
+
+/*CSS Tamaño móvil*/
+@media screen and (max-width: 426px) {
+    /*Parámetros generales de la web*/
+    *{
+        margin:0;
+    }
+    /*Parámetros de la navbar*/
+    nav {
+        height: auto;
+        background-color: none;
+    }
+    /*Boton de navegación oculto*/
+
+    .dropdown,.dropdownZelda {
+        display: none;
+    }
+    /*Logo del menú movil, tamaño*/
+    .logo img{
+
+        width: 3em;
+    }
+    /*Parámetros de menu de movil*/
+    .navmovil,.navmovilZelda {
+        width: 6em;
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+    }
+    /*Parámetros de los links de la navbar*/
+    .navmovil li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding:2vw;
+        text-decoration: none;
+    }
+    .navmovil li a#active {
+        background-color: rgb(165, 161, 161);
+        padding: 2vw;
+        font-size: 4vw;
+    }
+    hr{
+        color: black;
+    }
+
+    /*Nav Zelda*/
+     /*Parámetros de menu de movil*/
+     .navmovilZelda {
+        display: block;
+        background-color: #11342c;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    /*Parámetros de los links de la navbar*/
+    .navmovilZelda li a {
+        display: block;
+        color: gold;
+        text-align: center;
+        padding: 2.5vw;
+        text-decoration: none;
+    }
+    .navmovilZelda li a#active {
+        background-color: #18473d;
+        padding: 0.1em;
+        font-size: 18px;
+    }
+
+}
+
