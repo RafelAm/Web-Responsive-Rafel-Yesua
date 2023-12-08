@@ -1,9 +1,10 @@
+/*Parámetros generales de la web*/
 *{
     margin: 0;
 }
 
 
-
+/*Parámetros del botón de reserva de la Nintendo Switch*/
 #more-Zelda{
     position: absolute;
     display: block;
@@ -18,6 +19,7 @@
     top: 8vw;
     z-index: 2;
 }
+/*Parámetros del link del botón de reserva*/
 #more-Zelda a{
     display: block;
     color: gold;
@@ -31,16 +33,16 @@
     background-color: #11342c;
     text-decoration: none;
 }
-
+/*Imagen de la nintendo Switch*/
 #img1{
     height: 55.76vw;
 }
-
+/*Banner de Zelda que contiene texto*/
 #banner1{
     position: relative;
     z-index: 1;
 }
-
+/*Texto de la historia de Zelda*/
 #textZel{
     display: flex;
     position: absolute;
@@ -58,7 +60,7 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
-
+/*Titulo de la histroia de Zelda*/
 #titleZ{
     position: absolute;
     top: 61.5vw;
@@ -69,15 +71,16 @@
     z-index: 3;
     text-decoration: solid;
 }
-
+/*Separador de color verde Zelda*/
 #separador-Zelda{
     background-color: #18473d;
     margin-top: -0.7vw;
     height: 3vw;
 }
 
-
+/*Parámetros de la web responsive movil*/
 @media screen and (max-width: 740px){
+    /*Botón de reserva tamaño movil*/
     #more-Zelda{
         position: absolute;
         display: block;
@@ -92,6 +95,7 @@
         top: 41vw;
         z-index: 2;
     }
+    /*Parametros del link del botón de reserva*/
     #more-Zelda a{
         display: block;
         color: gold;
@@ -105,7 +109,7 @@
         background-color: #11342c;
         text-decoration: none;
     }
-
+    /*Parametros del texto para tamaño movil*/
     #textZel{
         display: flex;
         position: absolute;
@@ -123,7 +127,7 @@
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
         z-index: 2;
     }
-    
+    /*Parámetros del titulo del texto tamaño movil*/
     #titleZ{
         position: absolute;
         top: 96vw;
@@ -134,14 +138,17 @@
         z-index: 3;
         text-decoration: solid;
     }
+    /*Imagen de background de zelda*/
     .banner1{
         position: relative;
         height: 68.1vw;
         z-index: 1;
     }
+    /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
     #img1{
         height: 56.2vw;
     }
+    /*Parámetros del separador  de color verde*/
     #separador-Zelda{
         background-color: #18473d;
         margin-top: -0.7vw;

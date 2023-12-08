@@ -1,13 +1,17 @@
 
+/*Parámetros Generales de estilo de la web*/
 *{
     margin:0;
 }
 
+
+/*Parametros de la navbar*/
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+/*Botón de despligue con logotipo*/
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -16,7 +20,7 @@
     border: none;
     cursor: pointer;
 }
-
+/*Contenido del boton de despligue*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -27,7 +31,7 @@
     z-index: 1;
     
 }
-
+/*Links del del botón de despligue*/
 .dropdown-content a {
     color: gold;
     padding: 1vw 1vw;
@@ -54,29 +58,31 @@
     color: white;
     background-color: #18473d;
 }
+/*Parametros de color y tamaño de la barra de navegación*/
 nav{
     background-color: #18473d;
     height: 3.3vw;
 }
-
+/*Parámetros de la imagen de la barra de navegación*/
 button img{
     background-color: transparent;
     height: 3vw;
     margin-top: -0.5vw;
 }
 
+/*Parámetros de la imagen de background */
 .banner1{
     position: relative;
     width: 100%;
 }
 
-
+/*Barra de navegación móvil oculta*/
 .navmovil{
     display: none;
 
 }
 
-
+/*Parámetros del footer, tamaño color etc.*/
 footer{
     position: absolute;
     display: flexbox;
@@ -88,31 +94,33 @@ footer{
     padding: 2vw;
 
 }
-
+/*Tamaño de los logos de redes sociales*/
 .social{
     width: 2vw;
     height: 2vw;
 }
-#bannermovil1{
-    display:none;
-}
 
+/*Diseño responsive de 740px a menos*/
 @media screen and (max-width: 740px) {
+    /*Parámetros generales de la web*/
     *{
         margin:0;
     }
+    /*Parámetros de la navbar*/
     nav {
         height: auto;
         background-color: none;
     }
-
+/*Boton de navegación oculto*/
     .dropdown {
         display: none;
         position: absolute;
     }
+    /*Logo del menú movil, tamaño*/
     .logo img{
         width: 16vw;
     }
+    /*Parámetros de menu de movil*/
     .navmovil {
         display: block;
         background-color: #11342c;
@@ -121,7 +129,7 @@ footer{
         padding: 0;
         overflow: hidden;
     }
-
+    /*Parámetros de los links de la navbar*/
     .navmovil li a {
         display: block;
         color: gold;
@@ -134,12 +142,12 @@ footer{
         padding: 0.1em;
         font-size: 18px;
     }
-
+    /*Tamaño de los iconos de redes sociales*/
     .social{
         width: 5vw;
         height: 5vw;
     }
-
+    /*Parámetros del footer*/
     footer{
         position: absolute;
         display: flexbox;
