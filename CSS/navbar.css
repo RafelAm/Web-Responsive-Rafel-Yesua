@@ -18,8 +18,7 @@
     border: none;
     cursor: pointer;
 }
-/*Modificacion del icono de Mario solo sera 
-efectivo en la Web de mario*/
+/*Modificacion del icono de Mario solo sera efectivo en la Web de mario*/
 .botonMario{
     background-color: transparent;
     color: white;
