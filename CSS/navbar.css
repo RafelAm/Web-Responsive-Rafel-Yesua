@@ -166,8 +166,7 @@ button img{
     }
     .navmovilZelda li a#active {
         background-color: #18473d;
-        padding: 0.1em;
-        font-size: 18px;
+        padding: 2.5vw;
     }
 }
 
