@@ -79,7 +79,7 @@
 }
 
 /*Parámetros de la web responsive movil*/
-@media screen and (max-width: 740px){
+@media screen and (max-width: 426px){
     /*Botón de reserva tamaño movil*/
     #more-Zelda{
         position: absolute;

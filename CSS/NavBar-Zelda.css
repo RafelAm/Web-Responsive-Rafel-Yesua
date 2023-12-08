@@ -82,26 +82,8 @@ button img{
 
 }
 
-/*Parámetros del footer, tamaño color etc.*/
-footer{
-    position: absolute;
-    display: flexbox;
-    background-color: #18473d;
-    color: white;
-    font-size: 0.7vw;
-    text-align: left;
-    width: 95.99%;
-    padding: 2vw;
-
-}
-/*Tamaño de los logos de redes sociales*/
-.social{
-    width: 2vw;
-    height: 2vw;
-}
-
 /*Diseño responsive de 740px a menos*/
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 426px) {
     /*Parámetros generales de la web*/
     *{
         margin:0;
@@ -147,18 +129,6 @@ footer{
         width: 5vw;
         height: 5vw;
     }
-    /*Parámetros del footer*/
-    footer{
-        position: absolute;
-        display: flexbox;
-        background-color: #18473d;
-        color: white;
-        font-size: 2vw;
-        text-align: left;
-        width: 95.99%;
-        padding: 2vw;
-    
-    }
-    
+   
 }
 
