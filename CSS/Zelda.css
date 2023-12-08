@@ -36,10 +36,11 @@
 /*Imagen de la nintendo Switch*/
 #img1{
     height: 55.76vw;
+    width: 100%;
 }
 /*Banner de Zelda que contiene texto*/
-#banner1{
-    max-width: 55.76vw;
+.banner1{
+    width: 100%;
     position: relative;
     z-index: 1;
 }
