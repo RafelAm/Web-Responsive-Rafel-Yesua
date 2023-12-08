@@ -316,5 +316,9 @@ audio {
     #separador1{
         margin-top: -1vw;
     }
+    /*Parámetros de audio*/
+    audio {
+        display: none;
+    }
 
 }
