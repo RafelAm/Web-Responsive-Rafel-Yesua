@@ -102,7 +102,7 @@
     text-decoration: none;
 }
 
-
+/*Decoración de Zelda */
 #sword{
     display: flex;
     position: absolute;
@@ -111,7 +111,7 @@
     margin-left: 35vw;
     rotate: -90deg;
 }
-
+/*Texto de Zelda Tears of the Kingdom*/
 #sp3{
     display: flex;
     position: absolute;
@@ -156,7 +156,7 @@
     text-decoration: none;
 }
 
-
+/*Decoración de Mario en el texto*/
 #gorra{
     display: flex;
     position: absolute;
@@ -174,7 +174,7 @@
     z-index: 2;
 }
 
-
+/*Texto de la tienda de Nintendo*/
 #sp4{
     display: flex;
     position: absolute;
@@ -223,7 +223,7 @@
 .banner1{
     position: relative;
 }
-
+/*Esto esta aquí porque se buguea la web (Si se quita mueve todos los saber más y no los deja recolocar de nuevo :( )*/
 #banner1{
     width: 100%;
 }
@@ -234,6 +234,7 @@
     margin-top: -0.7vw;
     height: 3vw;
 }
+
 @media screen and (max-width: 426px){
     /*Imagen y texto del primer article */
    
