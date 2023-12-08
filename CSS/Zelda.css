@@ -36,11 +36,13 @@
 /*Imagen de la nintendo Switch*/
 #img1{
     height: 55.76vw;
+    width: 100%;
 }
 /*Banner de Zelda que contiene texto*/
-#banner1{
+.banner1{
     position: relative;
     z-index: 1;
+    width: 100%;
 }
 /*Texto de la historia de Zelda*/
 #textZel{
@@ -51,12 +53,12 @@
     text-align: left;
     left: 24vw;
     width: 43.8vw;
-    padding: 2.01vw;
+    padding: 1.5vw;
     padding-left: 5vw;
     padding-right: 5vw;
     background-color: #eee;
     line-height: 1.236vw;
-    top: 61.55vw;
+    top: 62vw;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
