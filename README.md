@@ -16,6 +16,9 @@
 # Enumerar les característiques i funcionalitats principals de la pàgina web.
 
 # Captures de Pantalla: S'han d'agregar captures de pantalla rellevants de la pàgina web de diferents seccions d'aquesta.
+ Barra de Navegación con sistema de dropdown:
+![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/7e5e10da-4380-4742-aee0-6e2cc8053f74)
+
 
 # Divisió de les tasques: S'ha de detallar i explicar la distribució de les tasques dutes a terme per cada membre del grup, destacant les responsabilitats específiques, contribucions individuals i el treball conjunt.
 
