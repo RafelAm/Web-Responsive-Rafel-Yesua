@@ -76,11 +76,7 @@ button img{
 
 }
 
-#separador1{
-    background-color: #18473d;
-    margin-top: -0.7vw;
-    height: 3vw;
-}
+
 footer{
     position: absolute;
     display: flexbox;
@@ -115,10 +111,11 @@ footer{
         position: absolute;
     }
     .logo img{
-        width: 6em;
+        width: 16vw;
     }
     .navmovil {
         display: block;
+        background-color: #11342c;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -127,18 +124,35 @@ footer{
 
     .navmovil li a {
         display: block;
-        color: white;
+        color: gold;
         text-align: center;
         padding: 1em 5em;
         text-decoration: none;
     }
     .navmovil li a#active {
-        background-color: rgb(165, 161, 161);
+        background-color: #18473d;
         padding: 0.75em;
         font-size: 18px;
     }
     #lg3,#sp3{
         display: flex;
+    }
+
+    .social{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    footer{
+        position: absolute;
+        display: flexbox;
+        background-color: #18473d;
+        color: white;
+        font-size: 2vw;
+        text-align: left;
+        width: 95.99%;
+        padding: 2vw;
+    
     }
     
 }
