@@ -10,8 +10,8 @@
 #more1{
     position: absolute;
     display: block;
-    color: white;
-    background-color: red;
+    color: gold;
+    background-color: #18473d;
     font-size: 1.2vw;
     width: 11vw;
     height: 4vw;
@@ -23,17 +23,17 @@
 }
 #more1 a{
     display: block;
-    color: white;
+    color: gold;
     text-decoration: none;
 }
 
 #more1 a:hover{
     padding: 1.1vw;
-    color: red;
-    background-color: white;
+    color: gold;
+    background-color: #11342c;
     text-decoration: none;
 }
 
 #img1{
-    height: 1080px;
+    height: auto;
 }
