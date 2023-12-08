@@ -1,18 +1,15 @@
 
-/*Parámetros Generales de estilo de la web*/
+/*Parametros generales de la web*/
 *{
     margin:0;
 }
-
-
-/*Parametros de la navbar*/
-.dropdown {
+/*Parámetros del menú de navbar*/
+.dropdown,.dropdownZelda {
     position: relative;
     display: inline-block;
 }
-
 /*Botón de despligue con logotipo*/
-.dropbtn {
+.dropbtn,.dropdownZelda .dropbtn {
     background-color: transparent;
     color: white;
     padding: 0.7vw;
@@ -21,31 +18,30 @@
     cursor: pointer;
 }
 /*Contenido del boton de despligue*/
-.dropdown-content {
+.dropdown-content,.dropdownZelda .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 20vw;
-    margin-top: -0.9vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     
 }
-/*Links del del botón de despligue*/
+/*Links del del botón de despligue en incio*/
 .dropdown-content a {
-    color: gold;
+    color: white;
     padding: 1vw 1vw;
     text-decoration: none;
     font-weight: bold;
     display: block;
-    background-color: #18473d;
+    background-color: red;
     font-size: 0.9vw;
     width: 20vw;
 }
 
 .dropdown-content a:hover {
-    background-color: #11342c;
-    color: gold;
+    background-color: white;
+    color: red;
     font-weight: bold;
     
 }
@@ -56,33 +52,57 @@
 
 .dropdown:hover .dropbtn {
     color: white;
+    background-color: red;
+}
+
+/*Links del del botón de despligue en Zelda*/
+.dropdownZelda .dropdown-content a{
+    color: gold;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    background-color: #18473d;
+    font-size: 0.9vw;
+    width: 20vw;
+}
+.dropdownZelda .dropdown-content a:hover {
+    background-color: #11342c;
+    color: gold;
+    font-weight: bold;
+    
+}
+
+.dropdownZelda:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownZelda:hover .dropbtn {
+    color: white;
     background-color: #18473d;
 }
 /*Parametros de color y tamaño de la barra de navegación*/
 nav{
+    background-color: red;
+    height: 3.3vw;
+}
+/*Parametros de color y 
+tamaño de la barra de navegación en Zelda*/
+nav.Zelda{
     background-color: #18473d;
     height: 3.3vw;
 }
 /*Parámetros de la imagen de la barra de navegación*/
 button img{
     background-color: transparent;
-    height: 3vw;
-    margin-top: -0.5vw;
+    height: 1.6vw;
 }
-
-/*Parámetros de la imagen de background */
-.banner1{
-    position: relative;
-    width: 100%;
-}
-
 /*Barra de navegación móvil oculta*/
 .navmovil{
     display: none;
-
 }
 
-/*Diseño responsive de 740px a menos*/
+/*CSS Tamaño móvil*/
 @media screen and (max-width: 426px) {
     /*Parámetros generales de la web*/
     *{
@@ -93,42 +113,38 @@ button img{
         height: auto;
         background-color: none;
     }
-/*Boton de navegación oculto*/
+    /*Boton de navegación oculto*/
     .dropdown {
         display: none;
-        position: absolute;
     }
     /*Logo del menú movil, tamaño*/
     .logo img{
-        width: 16vw;
+        width: 6em;
     }
     /*Parámetros de menu de movil*/
     .navmovil {
         display: block;
-        background-color: #11342c;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
+        
     }
     /*Parámetros de los links de la navbar*/
     .navmovil li a {
         display: block;
-        color: gold;
+        color: white;
         text-align: center;
-        padding: 2.5vw;
+        padding:2vw;
         text-decoration: none;
     }
     .navmovil li a#active {
-        background-color: #18473d;
-        padding: 0.1em;
-        font-size: 18px;
+        background-color: rgb(165, 161, 161);
+        padding: 2vw;
+        font-size: 4vw;
     }
-    /*Tamaño de los iconos de redes sociales*/
-    .social{
-        width: 5vw;
-        height: 5vw;
+    hr{
+        color: black;
     }
-   
 }
 
