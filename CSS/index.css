@@ -241,6 +241,8 @@ audio {
     align-items: left;
     margin-top: -3.5vw;
     margin-left: 8vw;
+    width: 11vw;
+    height: 3.5vw;
   }
   
   audio::-webkit-media-controls-panel {
@@ -266,8 +268,11 @@ audio {
     }
     /*Primer boton saber más en movil*/
     #more1{
-        left: 45vw;
-        top: 68vw;
+        left: 43vw;
+        top: 59vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*Imagen y texto del segundo article */
     #sp2{
@@ -283,35 +288,49 @@ audio {
     }
     /*Segundo boton saber más en movil*/
     #more2{
-        left: 45vw;
-        top: 107vw;
+        left: 43vw;
+        top: 98vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*texto del tercer article */
     #sp3{
         width: 60%;
-        margin-top: 10.5vw;
+        margin-top: 5vw;
         background-color: hsla(0, 0%, 0%, 0.57);
         border-color: black;
+        font-size: 2vw;
+        line-height: 2.2vw;
     }
     /*Tercer boton saber más en movil*/
     #more3{
         left: 45vw;
-        top: 145vw;
+        top: 138vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 6vw;
     }
     /*Imagen y texto del cuarto article */
     #sp4{
-        margin-top: 10.5vw;
+        margin-top: 1vw;
         background-color: hsla(0, 0%, 0%, 0.57);
         border-color: black;
-        
+        font-size: 2vw;
+        line-height: 2.2vw;
     }
     #disc{
-        top:159.5vw
+        top:143vw;
+        width: 15vw;
+        height: 15vw;
     }
     /*Cuarto boton saber más en movil*/
     #more4{
-        left: 45vw;
-        top: 185vw;
+        left: 44vw;
+        top: 178.5vw;
+        font-size: 2vw;
+        width: 15vw;
+        height: 5vw;
     }
     #separador1{
         margin-top: -1vw;
