@@ -14,10 +14,29 @@
         Photoshop
         
 # Enumerar les característiques i funcionalitats principals de la pàgina web.
-
+     Características y Funcionalidades:
+     - Imagenes
+     - Sonido de fondo en la página principal
+     - Barra de navegación inteligente
+     - Links interactivos con redireccionamiento
+     - Elementos con Imagenes y texto
+     - Botónes para consultar información
 # Captures de Pantalla: S'han d'agregar captures de pantalla rellevants de la pàgina web de diferents seccions d'aquesta.
- Barra de Navegación con sistema de dropdown:
+     Barra de Navegación con sistema de dropdown:
+ 
 ![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/7e5e10da-4380-4742-aee0-6e2cc8053f74)
+***
+     Diseño de los diferentes apartados de la web:
+
+![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/0494ce1a-5d78-4187-9d9f-dee0fd007c24)
+***
+![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/34983d69-c082-4fed-9fa3-a35d6f134c88)
+
+***
+     Diseño Responsive: 
+
+![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/fcd483e7-67ff-4936-9825-a4a5830fd63b)
+
 
 
 # Divisió de les tasques: S'ha de detallar i explicar la distribució de les tasques dutes a terme per cada membre del grup, destacant les responsabilitats específiques, contribucions individuals i el treball conjunt.
