@@ -40,5 +40,33 @@
 
 
 # Divisió de les tasques: S'ha de detallar i explicar la distribució de les tasques dutes a terme per cada membre del grup, destacant les responsabilitats específiques, contribucions individuals i el treball conjunt.
+     División de tareas:
 
-# Utilitzar llistes o marcadors per a una presentació clara.
+     Rafel Amengual Tomás:
+     - Diseño de las imagenes de Index.html y Zelda.html
+     - Desarollo del index y Zelda en html y css en tamaño por defecto.
+     - Desarollo del Diseño responsive en la página de Mario.html
+     - Limpieza del contenido sobrante
+
+     Yesua Ibañez Castrillo:
+     - Diseño de las imagenes de Mario.html
+     - Desarollo de Mario.html en tamaño por defecto
+     - Desarollo del Diseño responsive de Index.html y Zelda.html
+     - Diseño y Desarollo de la NavBar en Responsive y tamaño por defecto
+     - Fusionar todo el contenido de la web
+     
+
+
+     Trabajo conjunto:
+     - Planteamiento de la web
+     - Planteamiento del diseño de la web
+     - Codigo comentado de todas los archivos
+     - Planteamiento del contenido de la página web
+     - Revisión de todo el codigo en busqueda de fallos y bugs
+     
+     
+| Tareas | Yesua | Rafel | Rafel y Yesua|
+|----------|----------|----------|----------|
+|Planteamiento de la web| - | - | 2h|
+|Diseño Responsive| 5h | 2h | - |
+|Diseño de imagenes| 1h | 4h | - |
