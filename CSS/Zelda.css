@@ -111,11 +111,6 @@
             background-color: #11342c;
             text-decoration: none;
         }
-
-    #img1{
-        margin-top: 36vw;
-    }
-
     .banner1{
         width: 100%;
     }
@@ -164,6 +159,9 @@
         /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
         #img1{
             height: 56.2vw;
+        }
+        .ImgProm{
+            margin-top: 36vw;
         }
         /*Parámetros del separador  de color verde*/
         #separador-Zelda{
