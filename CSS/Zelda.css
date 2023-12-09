@@ -81,7 +81,7 @@
 }
 
 /*Parámetros de la web responsive movil*/
-@media screen and (max-width: 426px){
+    @media screen and (max-width: 426px){
     /*Botón de reserva tamaño movil*/
     #more-Zelda{
         position: absolute;
@@ -97,20 +97,29 @@
         top: 41vw;
         z-index: 2;
     }
-    /*Parametros del link del botón de reserva*/
-    #more-Zelda a{
-        display: block;
-        color: gold;
-        text-decoration: none;
+        /*Parametros del link del botón de reserva*/
+        #more-Zelda a{
+            display: block;
+            color: gold;
+            text-decoration: none;
+        }
+        
+        #more-Zelda a:hover{
+            padding: 3.5vw;
+            border: solid gold 0.25vw;
+            color: gold;
+            background-color: #11342c;
+            text-decoration: none;
+        }
+
+    #img1{
+        margin-top: 36vw;
     }
-    
-    #more-Zelda a:hover{
-        padding: 3.5vw;
-        border: solid gold 0.25vw;
-        color: gold;
-        background-color: #11342c;
-        text-decoration: none;
+
+    .banner1{
+        width: 100%;
     }
+
     /*Parametros del texto para tamaño movil*/
     #textZel{
         display: flex;
@@ -125,14 +134,14 @@
         padding-right: 5vw;
         background-color: #eee;
         line-height: 2vw;
-        top: 96vw;
+        top: 99vw;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
         z-index: 2;
     }
     /*Parámetros del titulo del texto tamaño movil*/
     #titleZ{
         position: absolute;
-        top: 96vw;
+        top: 99vw;
         left: 37vw;
         color: rgb(241, 241, 55);
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.79);
@@ -140,61 +149,30 @@
         z-index: 3;
         text-decoration: solid;
     }
-    /*Imagen de background de zelda*/
-    .banner1{
-        position: relative;
-        height: 68.1vw;
-        z-index: 1;
-    }
-    /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
-    #img1{
-        height: 56.2vw;
-    }
-    /*Parámetros del separador  de color verde*/
-    #separador-Zelda{
-        background-color: #18473d;
-        margin-top: -0.7vw;
-        height: 3vw;
-    }
-
-    @media screen and (max-width: 426px){
-    /*Botón de reserva tamaño movil*/
-    #more-Zelda{
-        left: 37vw;
-        top: 44vw;
-    }
-
-    #img1{
-        margin-top: 36vw;
-    }
-
-    .banner1{
-        width: 100%;
-    }
-
-    /*Parametros del texto para tamaño movil*/
-    #textZel{
-        font-size: 2vw;
-        padding: 4vw;
-        padding-top: 7vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        width: 87vw;
-        left: 1.3vw;
-        top: 102vw;
-    }
-
-    /*Parámetros del titulo del texto tamaño movil*/
-    #titleZ{
-        top: 103.5vw;
-        left: 37vw;
-        font-size: 3vw;
-    }
 
     /*Separador de color verde Zelda*/
     #separador-Zelda{
         margin-top: -0.9vw;
         height: 5vw;
     }
+        /*Imagen de background de zelda*/
+        .banner1{
+            position: relative;
+            height: 68.1vw;
+            z-index: 1;
+        }
+        /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
+        #img1{
+            height: 56.2vw;
+        }
+        /*Parámetros del separador  de color verde*/
+        #separador-Zelda{
+            background-color: #18473d;
+            margin-top: -0.7vw;
+            height: 3vw;
+        }
+        .dropdownZelda{
+            display: none;
+        }
+    
     } 
-}
