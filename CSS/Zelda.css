@@ -1,0 +1,200 @@
+/*Parámetros generales de la web*/
+*{
+    margin: 0;
+}
+
+
+/*Parámetros del botón de reserva de la Nintendo Switch*/
+#more-Zelda{
+    position: absolute;
+    display: block;
+    color: gold;
+    background-color: #18473d;
+    font-size: 1.5vw;
+    width: 24vw;
+    height: 10vw;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    left: 35vw;
+    top: 8vw;
+    z-index: 2;
+}
+/*Parámetros del link del botón de reserva*/
+#more-Zelda a{
+    display: block;
+    color: gold;
+    text-decoration: none;
+}
+
+#more-Zelda a:hover{
+    padding: 3.5vw;
+    border: solid gold 0.25vw;
+    color: gold;
+    background-color: #11342c;
+    text-decoration: none;
+}
+/*Imagen de la nintendo Switch*/
+#img1{
+    height: 55.76vw;
+    width: 100%;
+}
+/*Banner de Zelda que contiene texto*/
+.banner1{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+/*Texto de la historia de Zelda*/
+#textZel{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 1vw;
+    text-align: left;
+    left: 24vw;
+    width: 43.8vw;
+    padding: 2.01vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #eee;
+    line-height: 1.236vw;
+    top: 61.55vw;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+/*Titulo de la histroia de Zelda*/
+#titleZ{
+    position: absolute;
+    top: 61.5vw;
+    left: 42.5vw;
+    color: rgb(241, 241, 55);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.79);
+    font-size: 2vw;
+    z-index: 3;
+    text-decoration: solid;
+}
+/*Separador de color verde Zelda*/
+#separador-Zelda{
+    background-color: #18473d;
+    margin-top: -0.7vw;
+    height: 3vw;
+}
+
+/*Parámetros de la web responsive movil*/
+@media screen and (max-width: 426px){
+    /*Botón de reserva tamaño movil*/
+    #more-Zelda{
+        position: absolute;
+        display: block;
+        color: gold;
+        background-color: #18473d;
+        font-size: 2.5vw;
+        width: 24vw;
+        height: 10vw;
+        border: 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+        left: 37vw;
+        top: 41vw;
+        z-index: 2;
+    }
+    /*Parametros del link del botón de reserva*/
+    #more-Zelda a{
+        display: block;
+        color: gold;
+        text-decoration: none;
+    }
+    
+    #more-Zelda a:hover{
+        padding: 3.5vw;
+        border: solid gold 0.25vw;
+        color: gold;
+        background-color: #11342c;
+        text-decoration: none;
+    }
+    /*Parametros del texto para tamaño movil*/
+    #textZel{
+        display: flex;
+        position: absolute;
+        color: black;
+        font-size: 2.2vw;
+        text-align: justify;
+        left: 5vw;
+        width: 80vw;
+        padding: 4vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        background-color: #eee;
+        line-height: 2vw;
+        top: 96vw;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+    /*Parámetros del titulo del texto tamaño movil*/
+    #titleZ{
+        position: absolute;
+        top: 96vw;
+        left: 37vw;
+        color: rgb(241, 241, 55);
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.79);
+        font-size: 3vw;
+        z-index: 3;
+        text-decoration: solid;
+    }
+    /*Imagen de background de zelda*/
+    .banner1{
+        position: relative;
+        height: 68.1vw;
+        z-index: 1;
+    }
+    /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
+    #img1{
+        height: 56.2vw;
+    }
+    /*Parámetros del separador  de color verde*/
+    #separador-Zelda{
+        background-color: #18473d;
+        margin-top: -0.7vw;
+        height: 3vw;
+    }
+
+    @media screen and (max-width: 426px){
+    /*Botón de reserva tamaño movil*/
+    #more-Zelda{
+        left: 37vw;
+        top: 44vw;
+    }
+
+    #img1{
+        margin-top: 36vw;
+    }
+
+    .banner1{
+        width: 100%;
+    }
+
+    /*Parametros del texto para tamaño movil*/
+    #textZel{
+        font-size: 2vw;
+        padding: 4vw;
+        padding-top: 7vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 87vw;
+        left: 1.3vw;
+        top: 102vw;
+    }
+
+    /*Parámetros del titulo del texto tamaño movil*/
+    #titleZ{
+        top: 103.5vw;
+        left: 37vw;
+        font-size: 3vw;
+    }
+
+    /*Separador de color verde Zelda*/
+    #separador-Zelda{
+        margin-top: -0.9vw;
+        height: 5vw;
+    }
+    } 
+}
