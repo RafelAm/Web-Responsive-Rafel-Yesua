@@ -1,19 +1,19 @@
 # Web Responsive Rafel-Yesua
      Página Web Responsive creada por Rafel Amengual Tomás y Yesua Ibañez Castrillo
-# Estructura de carpetes i arxius que conformen la pàgina web.
+## Estructura de carpetes i arxius que conformen la pàgina web.
     La estructura que presentamos es la siguiente:
     1. En el directorio raiz de la web estaran los documentos HTML, junto con las capetas que contendran los archivos CSS y las imagenes(CSS y Multimedia).
     2. Dentro de la carpeta CSS tendremos un archivo css que contendra los estilos de la página en cuestión,
        para las páginas especiales como la de Zelda o Mario están en otro archivo para evitar problemas con los estilos.
     3.  En la carpeta Multimedia guardaremos las imágenes principales que se han usado en la web.
-# Tecnologies utilitzades en el desenvolupament de la pàgina web.
+## Tecnologies utilitzades en el desenvolupament de la pàgina web.
     Las herramientas que hemos utilizado para el desarrollo de la página son:
         Visual Studio Code
          Plugins:
           - Live Preview
         Photoshop
         
-# Enumerar les característiques i funcionalitats principals de la pàgina web.
+## Enumerar les característiques i funcionalitats principals de la pàgina web.
      Características y Funcionalidades:
      - Imagenes
      - Sonido de fondo en la página principal
@@ -21,7 +21,7 @@
      - Links interactivos con redireccionamiento
      - Elementos con Imagenes y texto
      - Botónes para consultar información
-# Captures de Pantalla: S'han d'agregar captures de pantalla rellevants de la pàgina web de diferents seccions d'aquesta.
+## Captures de Pantalla: S'han d'agregar captures de pantalla rellevants de la pàgina web de diferents seccions d'aquesta.
      Barra de Navegación con sistema de dropdown:
  
 ![image](https://github.com/RafelAm/Web-Responsive-Rafel-Yesua/assets/147522281/7e5e10da-4380-4742-aee0-6e2cc8053f74)
@@ -39,7 +39,7 @@
 
 
 
-# Divisió de les tasques: S'ha de detallar i explicar la distribució de les tasques dutes a terme per cada membre del grup, destacant les responsabilitats específiques, contribucions individuals i el treball conjunt.
+## Divisió de les tasques: S'ha de detallar i explicar la distribució de les tasques dutes a terme per cada membre del grup, destacant les responsabilitats específiques, contribucions individuals i el treball conjunt.
      División de tareas:
 
      Rafel Amengual Tomás:
@@ -68,5 +68,12 @@
 | Tareas | Yesua | Rafel | Rafel y Yesua|
 |----------|----------|----------|----------|
 |Planteamiento de la web| - | - | 2h|
-|Diseño Responsive| 5h | 2h | - |
+|Planteamiento del diseño de la web| - | - | 3h |
+|Diseño Responsive| 7h | 2h | - |
 |Diseño de imagenes| 1h | 4h | - |
+|Comentar codigo| - | - | 2h |
+|Busqueda de fallos y bugs| 2h | 1h | - |
+|Fusión del contenido| 5h | - | - |
+|Desarollo de HTML| 7h | 10h | - |
+|Desarollo de CSS| 6h | 4h | - |
+
