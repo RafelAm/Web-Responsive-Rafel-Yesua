@@ -87,7 +87,7 @@
 
 .dropdownMario:hover .dropbtn {
     color: white;
-    background-color: #red;
+    background-color: red;
 }
 /*Links del botón de despligue en Zelda*/
 .dropdownZelda .dropdown-content a{

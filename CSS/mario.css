@@ -276,5 +276,8 @@
         background-color: red;
         text-decoration: none;
     }
+    .dropdownMario{
+        display: none;
+    }
 
 }
