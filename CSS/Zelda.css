@@ -35,7 +35,6 @@
 }
 /*Imagen de la nintendo Switch*/
 #img1{
-    height: 55.76vw;
     width: 100%;
 }
 /*Banner de Zelda que contiene texto*/
@@ -147,9 +146,7 @@
         z-index: 1;
     }
     /*Parámetros de tamaño de la imagen de la Nintendo Switch*/
-    #img1{
-        height: 56.2vw;
-    }
+
     /*Parámetros del separador  de color verde*/
     #separador-Zelda{
         background-color: #18473d;
@@ -163,8 +160,7 @@
         left: 37vw;
         top: 44vw;
     }
-
-    #img1{
+    .test{
         margin-top: 36vw;
     }
 
@@ -197,4 +193,5 @@
         height: 5vw;
     }
     } 
+
 }
