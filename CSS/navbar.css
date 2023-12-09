@@ -86,8 +86,7 @@ nav{
     background-color: red;
     height: 3.3vw;
 }
-/*Parametros de color y 
-tamaño de la barra de navegación en Zelda*/
+/*Parametros de color y tamaño de la barra de navegación en Zelda*/
 nav.Zelda{
     background-color: #18473d;
     height: 3.3vw;
@@ -96,6 +95,9 @@ nav.Zelda{
 button img{
     background-color: transparent;
     height: 1.6vw;
+}
+.botonMario{
+    background-color: none;
 }
 /*Barra de navegación móvil oculta*/
 .navmovil,.navmovilZelda{
